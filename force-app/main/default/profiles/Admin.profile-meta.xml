@@ -26,11 +26,6 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__AlmDevops</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
         <visible>true</visible>
@@ -62,11 +57,6 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningBolt</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>standard__LightningInstrumentation</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -452,6 +442,9 @@
         <layout>Solution-Solution Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Student__c-Student Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -490,6 +483,19 @@
     <layoutAssignments>
         <layout>WorkThanks-Thanks Layout</layout>
     </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Student__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <tabVisibilities>
+        <tab>Student__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
@@ -1153,10 +1159,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>SendExternalEmailAvailable</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>SendSitRequests</name>
     </userPermissions>
     <userPermissions>
@@ -1226,10 +1228,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>UseWebLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>UserHasDevOpsCore</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

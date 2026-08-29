@@ -13,5 +13,9 @@
     <label>Your Account</label>
     <navType>Standard</navType>
     <tabs>standard-OnlineSalesHome</tabs>
+    <tabs>standard-SalesforceContract</tabs>
+    <tabs>standard-SalesforceInvoice</tabs>
+    <tabs>standard-SalesforceProductCatalog</tabs>
+    <tabs>Student__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

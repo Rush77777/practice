@@ -7,4 +7,5 @@
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <tabs>standard-Chatter</tabs>
     <tabs>standard-File</tabs>
+    <tabs>Student__c</tabs>
 </CustomApplication>
